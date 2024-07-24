@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#5D5FEF</color>
+    <color name="colorPrimaryDark">#4648C4</color>
+    <color name="colorAccent">#FF7A00</color>
+
+    <!-- Secondary colors -->
+    <color name="colorSecondary">#00C2FF</color>
+    <color name="colorSecondaryDark">#0099CC</color>
+
+    <!-- Neutral colors -->
+    <color name="colorBackground">#F0F4F8</color>
+    <color name="colorSurface">#E1E8ED</color>
+    <color name="colorOnSurface">#2C3E50</color>
+
+    <!-- Text colors -->
+    <color name="textPrimary">#2C3E50</color>
+    <color name="textSecondary">#34495E</color>
+    <color name="textHint">#95A5A6</color>
+
+    <!-- Specific use colors -->
+    <color name="colorIncome">#2ECC71</color>
+    <color name="colorExpense">#E74C3C</color>
+    <color name="colorSavings">#F1C40F</color>
+    <color name="colorBudget">#8E44AD</color>
+
+    <!-- Chart colors -->
+    <color name="chartColor1">#3498DB</color>
+    <color name="chartColor2">#2ECC71</color>
+    <color name="chartColor3">#F1C40F</color>
+    <color name="chartColor4">#9B59B6</color>
+    <color name="chartColor5">#34495E</color>
+
+    <!-- Status colors -->
+    <color name="colorSuccess">#27AE60</color>
+    <color name="colorWarning">#F39C12</color>
+    <color name="colorError">#C0392B</color>
+    <color name="colorInfo">#3498DB</color>
+
+    <!-- Gradient colors -->
+    <color name="gradientStart">#5D5FEF</color>
+    <color name="gradientEnd">#00C2FF</color>
+
+    <!-- Overlay colors -->
+    <color name="colorOverlay">#521E272E</color>
+    <color name="colorScrim">#1F1E272E</color>
+
+    <!-- Divider color -->
+    <color name="colorDivider">#BDC3C7</color>
+
+    <color name="cardEarnings">#3498DB</color>
+    <color name="cardBills">#E74C3C</color>
+    <color name="cardCalendar">#1ABC9C</color>
+    <color name="cardExpenses">#9B59B6</color>
+    <color name="colorSchedule">#4CAF50</color>
+    <color name="inactiveIcon">#95A5A6</color>
+</resources>

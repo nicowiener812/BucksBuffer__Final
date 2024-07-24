@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transportation</item>
+        <item>Housing</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Healthcare</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="income_sources">
+        <item>Salary</item>
+        <item>Freelance</item>
+        <item>Investments</item>
+        <item>Rental Income</item>
+        <item>Business</item>
+        <item>Gifts</item>
+        <item>Other</item>
+    </string-array>
+</resources>

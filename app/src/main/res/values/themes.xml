@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BucksBuffer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorSurface</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorSurface</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:textColorHint">@color/textHint</item>
+        <item name="materialButtonStyle">@style/Widget.BucksBuffer.Button</item>
+        <item name="textInputStyle">@style/Widget.BucksBuffer.TextInputLayout</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+    </style>
+
+    <!-- Custom card styles -->
+    <style name="CardStyle.Earnings" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardEarnings</item>
+    </style>
+    <style name="CardStyle.Bills" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBills</item>
+    </style>
+    <style name="CardStyle.Calendar" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardCalendar</item>
+    </style>
+    <style name="CardStyle.Expenses" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardExpenses</item>
+    </style>
+    <style name="CardStyle.Schedule" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/colorSchedule</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:width">48dp</item>
+        <item name="android:height">32dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="Widget.BucksBuffer.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.BucksBuffer.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+    <style name="CompactCalendarStyle" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="CompactCalendarView" parent="android:Widget.DeviceDefault.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+        <item name="android:calendarViewShown">true</item>
+        <item name="android:spinnersShown">false</item>
+        <item name="android:maxDate">12/31/2100</item>
+        <item name="android:minDate">01/01/1900</item>
+    </style>
+</resources>

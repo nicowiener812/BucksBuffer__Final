@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934300509518",
+    "project_id": "bucks-buffer",
+    "storage_bucket": "bucks-buffer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934300509518:android:5a52e0c9038f7543cdea1f",
+        "android_client_info": {
+          "package_name": "com.example.bucksbuffer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPuNr3HF5IcphDG2y6CzwUAqWnLMAwFcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
