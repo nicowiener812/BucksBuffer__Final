@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "934300509518",
-    "project_id": "bucks-buffer",
-    "storage_bucket": "bucks-buffer.appspot.com"
+    "project_number": "697261305446",
+    "project_id": "bucks-buffer-final",
+    "storage_bucket": "bucks-buffer-final.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:934300509518:android:5a52e0c9038f7543cdea1f",
+        "mobilesdk_app_id": "1:697261305446:android:a5f7abbed7a68957e5c7a7",
         "android_client_info": {
           "package_name": "com.example.bucksbuffer"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "697261305446-07gtcvs0gh0f9g7r9hbkfkfg1e29kvu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bucksbuffer",
+            "certificate_hash": "b501a5d5f40418117e32d3ccf989f257fce2b8ad"
+          }
+        },
+        {
+          "client_id": "697261305446-61a6nhdiohsu2l98t2k0qd96j3pt8445.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBPuNr3HF5IcphDG2y6CzwUAqWnLMAwFcw"
+          "current_key": "AIzaSyCgxcI49PHNeX23KW1a_ur0bD-8r1CExx4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697261305446-61a6nhdiohsu2l98t2k0qd96j3pt8445.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
