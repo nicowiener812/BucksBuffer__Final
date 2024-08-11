@@ -361,3 +361,5 @@ public class HomeActivity extends BaseActivity {
         mFirebaseAnalytics.logEvent(eventName, bundle);
     }
 }
+
+
